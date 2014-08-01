@@ -143,7 +143,7 @@
 <text x="5.461" y="14.478" size="1" layer="22" ratio="12" rot="MR0">0</text>
 <text x="14.732" y="6.096" size="1" layer="21" font="vector" ratio="12">Red-</text>
 <text x="14.732" y="14.732" size="1" layer="21" font="vector" ratio="12">Yellow+</text>
-<text x="8.636" y="1.27" size="1" layer="21" font="vector" ratio="12">MAX31851K</text>
+<text x="15.24" y="1.016" size="1.25" layer="22" font="vector" ratio="12" rot="MR0">MAX31851K</text>
 <text x="20.828" y="12.7" size="1" layer="22" font="vector" ratio="12" rot="MR270">v1.0</text>
 <wire x1="0" y1="2.54" x2="0" y2="19.05" width="0.0254" layer="20"/>
 <wire x1="0" y1="19.05" x2="2.54" y2="21.59" width="0.0254" layer="20" curve="-90"/>
@@ -163,7 +163,6 @@
 <text x="3.81" y="3.81" size="1" layer="21" font="vector" ratio="12">A3</text>
 <text x="14.986" y="16.51" size="1" layer="22" ratio="12" rot="MR0">VIN: 3.6-16V
 DATA: 3.3V</text>
-<text x="16.256" y="1.016" size="1.27" layer="22" font="vector" rot="MR0">Logan Smith</text>
 </plain>
 <libraries>
 <library name="LoganSmith-Capacitors">
@@ -773,7 +772,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY_OC" value="" x="2.286" y="19.558" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="4.191" y="20.828" size="1" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="8.89" y="4.826"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="11.938" y="2.794"/>
 <element name="AD0" library="LoganSmith-Connectors" package="SJ_3" value="" x="6.096" y="13.208" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.587" y="12.727" size="1" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="7.666" y="11.603" size="0.5" layer="28" font="vector" ratio="12" rot="MR0"/>
@@ -792,8 +791,8 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U$1" library="LoganSmith-Electromechanical" package="MOUNTINGHOLE_2.0_PLATED" value="MNTHOLE-2.0" x="19.05" y="2.54"/>
 <element name="U$2" library="LoganSmith-Electromechanical" package="MOUNTINGHOLE_2.0_PLATED" value="MNTHOLE-2.0" x="19.05" y="19.05"/>
-<element name="J2" library="LoganSmith-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M02ST-3.5MM" x="18.034" y="9.144" smashed="yes" rot="R90">
-<attribute name="VALUE" x="20.039" y="8.149" size="0.5" layer="27" font="vector" ratio="12" rot="R90"/>
+<element name="J2" library="LoganSmith-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M02ST-3.5MM" x="17.907" y="9.144" smashed="yes" rot="R90">
+<attribute name="VALUE" x="19.912" y="8.149" size="0.5" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -978,7 +977,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="TP_RAW">
 <contactref element="FB1" pad="P$1"/>
 <contactref element="J2" pad="2"/>
-<wire x1="18.034" y1="12.644" x2="16.312" y2="12.644" width="0.381" layer="1"/>
+<wire x1="17.907" y1="12.644" x2="16.312" y2="12.644" width="0.381" layer="1"/>
 <wire x1="16.312" y1="12.644" x2="15.494" y2="13.462" width="0.381" layer="1"/>
 <wire x1="15.494" y1="13.462" x2="13.374" y2="13.462" width="0.381" layer="1"/>
 <wire x1="13.374" y1="13.462" x2="13.335" y2="13.423" width="0.381" layer="1"/>
@@ -986,7 +985,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="TM_RAW">
 <contactref element="FB2" pad="P$1"/>
 <contactref element="J2" pad="1"/>
-<wire x1="18.034" y1="9.144" x2="16.256" y2="9.144" width="0.381" layer="1"/>
+<wire x1="17.907" y1="9.144" x2="16.256" y2="9.144" width="0.381" layer="1"/>
 <wire x1="16.256" y1="9.144" x2="15.494" y2="8.382" width="0.381" layer="1"/>
 <wire x1="15.494" y1="8.382" x2="13.374" y2="8.382" width="0.381" layer="1"/>
 <wire x1="13.374" y1="8.382" x2="13.335" y2="8.421" width="0.381" layer="1"/>
