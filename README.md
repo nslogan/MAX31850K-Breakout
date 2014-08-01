@@ -1,4 +1,3 @@
-MAX31850K-Breakout
-==================
+# MAX31850K-Breakout
 
-Small breakout board for the Maxim MAX31850K K-type cold-junction compensated, 1-Wire  thermocouple-to-digital converter.
+A small breakout board for the Maxim MAX31850K 1-wire type-K thermocouple amplifier with CJC. Project [available on GitHub](https://github.com/nslogan/MAX31850K-Breakout").
