@@ -759,137 +759,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="LoganSmith-Digital_IC">
-<packages>
-<package name="10-TDFN-EP">
-<description>&lt;p&gt;Plastic Very Very Thin Dual Flatpack, No Leads&lt;/p&gt;
-&lt;p&gt;Based on Maxim land pattern 90-0247:&lt;br/&gt;
-&lt;a href="http://pdfserv.maximintegrated.com/land_patterns/90-0247.PDF"&gt;Land Pattern&lt;/a&gt;&lt;br/&gt;
-&lt;a href="http://pdfserv.maximintegrated.com/package_dwgs/21-0268.PDF"&gt;Package Outline&lt;/a&gt;
-&lt;/p&gt;</description>
-<smd name="5" x="-1.92" y="-1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="4" x="-1.92" y="-0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="3" x="-1.92" y="0" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="2" x="-1.92" y="0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="1" x="-1.92" y="1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="6" x="1.92" y="-1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="7" x="1.92" y="-0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="8" x="1.92" y="0" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="9" x="1.92" y="0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<smd name="10" x="1.92" y="1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
-<circle x="-2.6" y="1.8" radius="0.2" width="0.125" layer="21"/>
-<text x="-2.1" y="-2.9" size="1" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="3.1" y="-1.2" size="0.5" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
-<smd name="PAD" x="0" y="0" dx="2.6" dy="2.3" layer="1"/>
-<polygon width="0.125" layer="51">
-<vertex x="-1.25" y="-1.1"/>
-<vertex x="-1.25" y="0.7"/>
-<vertex x="-0.9" y="1.1"/>
-<vertex x="1.25" y="1.1"/>
-<vertex x="1.25" y="-1.1"/>
-</polygon>
-<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.125" layer="51"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.125" layer="51"/>
-<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.125" layer="51"/>
-<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.125" layer="51"/>
-<rectangle x1="-2" y1="-0.125" x2="-1.6" y2="0.125" layer="51"/>
-<rectangle x1="-2" y1="0.375" x2="-1.6" y2="0.625" layer="51"/>
-<rectangle x1="-2" y1="0.875" x2="-1.6" y2="1.125" layer="51"/>
-<rectangle x1="-2" y1="-0.625" x2="-1.6" y2="-0.375" layer="51"/>
-<rectangle x1="-2" y1="-1.125" x2="-1.6" y2="-0.875" layer="51"/>
-<rectangle x1="1.6" y1="0.875" x2="2" y2="1.125" layer="51"/>
-<rectangle x1="1.6" y1="0.375" x2="2" y2="0.625" layer="51"/>
-<rectangle x1="1.6" y1="-0.125" x2="2" y2="0.125" layer="51"/>
-<rectangle x1="1.6" y1="-0.625" x2="2" y2="-0.375" layer="51"/>
-<rectangle x1="1.6" y1="-1.125" x2="2" y2="-0.875" layer="51"/>
-<wire x1="-2.6" y1="1.8" x2="2.6" y2="1.8" width="0.125" layer="39"/>
-<wire x1="2.6" y1="1.8" x2="2.6" y2="-1.8" width="0.125" layer="39"/>
-<wire x1="2.6" y1="-1.8" x2="-2.6" y2="-1.8" width="0.125" layer="39"/>
-<wire x1="-2.6" y1="-1.8" x2="-2.6" y2="1.8" width="0.125" layer="39"/>
-<wire x1="-2.2" y1="-1.5" x2="-2.2" y2="-1.7" width="0.125" layer="21"/>
-<wire x1="-2.2" y1="-1.7" x2="2.2" y2="-1.7" width="0.125" layer="21"/>
-<wire x1="2.2" y1="-1.7" x2="2.2" y2="-1.5" width="0.125" layer="21"/>
-<wire x1="-2.2" y1="1.5" x2="-2.2" y2="1.7" width="0.125" layer="21"/>
-<wire x1="-2.2" y1="1.7" x2="2.2" y2="1.7" width="0.125" layer="21"/>
-<wire x1="2.2" y1="1.7" x2="2.2" y2="1.5" width="0.125" layer="21"/>
-<wire x1="-1.4" y1="1.1" x2="-1.2" y2="1.1" width="0.0625" layer="51"/>
-<wire x1="-1.3" y1="1.2" x2="-1.3" y2="1" width="0.0625" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MAX3185*">
-<description>&lt;p&gt;Cold-Junction Compensated, 1-Wire Thermocouple-to-Digital Converters&lt;br/&gt;
-&lt;a href="http://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<pin name="GND" x="-5.08" y="2.54" length="middle" direction="sup"/>
-<pin name="VDD" x="-5.08" y="5.08" length="middle" direction="pwr"/>
-<pin name="DQ" x="-5.08" y="20.32" length="middle"/>
-<pin name="T-" x="-5.08" y="10.16" length="middle" direction="in"/>
-<pin name="T+" x="-5.08" y="15.24" length="middle" direction="in"/>
-<pin name="AD0" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="AD1" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="AD2" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="AD3" x="22.86" y="20.32" length="middle" rot="R180"/>
-<wire x1="0" y1="0" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="22.86" x2="17.78" y2="0" width="0.254" layer="94"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="DNC" x="22.86" y="5.08" length="middle" direction="nc" rot="R180"/>
-<text x="0" y="24.384" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-3.556" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="PAD" x="22.86" y="2.54" length="middle" direction="nc" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MAX3185?*" prefix="U">
-<gates>
-<gate name="G$1" symbol="MAX3185*" x="-7.62" y="-12.7"/>
-</gates>
-<devices>
-<device name="0" package="10-TDFN-EP">
-<connects>
-<connect gate="G$1" pin="AD0" pad="6"/>
-<connect gate="G$1" pin="AD1" pad="7"/>
-<connect gate="G$1" pin="AD2" pad="8"/>
-<connect gate="G$1" pin="AD3" pad="9"/>
-<connect gate="G$1" pin="DNC" pad="10"/>
-<connect gate="G$1" pin="DQ" pad="5"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="PAD" pad="PAD"/>
-<connect gate="G$1" pin="T+" pad="3"/>
-<connect gate="G$1" pin="T-" pad="2"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-</connects>
-<technologies>
-<technology name="E"/>
-<technology name="J"/>
-<technology name="K"/>
-<technology name="N"/>
-<technology name="T"/>
-</technologies>
-</device>
-<device name="1" package="10-TDFN-EP">
-<connects>
-<connect gate="G$1" pin="AD0" pad="6"/>
-<connect gate="G$1" pin="AD1" pad="7"/>
-<connect gate="G$1" pin="AD2" pad="8"/>
-<connect gate="G$1" pin="AD3" pad="9"/>
-<connect gate="G$1" pin="DNC" pad="10"/>
-<connect gate="G$1" pin="DQ" pad="5"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="PAD" pad="PAD"/>
-<connect gate="G$1" pin="T+" pad="3"/>
-<connect gate="G$1" pin="T-" pad="2"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-</connects>
-<technologies>
-<technology name="R"/>
-<technology name="S"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="LoganSmith-Connectors">
 <packages>
 <package name="1X08_SQ1">
@@ -4908,6 +4777,169 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LoganSmith-Analog_IC">
+<packages>
+<package name="10-TDFN-EP">
+<description>&lt;p&gt;Plastic Very Very Thin Dual Flatpack, No Leads&lt;/p&gt;
+&lt;p&gt;Based on Maxim land pattern 90-0247:&lt;br/&gt;
+&lt;a href="http://pdfserv.maximintegrated.com/land_patterns/90-0247.PDF"&gt;Land Pattern&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://pdfserv.maximintegrated.com/package_dwgs/21-0268.PDF"&gt;Package Outline&lt;/a&gt;
+&lt;/p&gt;</description>
+<smd name="5" x="-1.92" y="-1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="4" x="-1.92" y="-0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="3" x="-1.92" y="0" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="2" x="-1.92" y="0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="1" x="-1.92" y="1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="6" x="1.92" y="-1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="7" x="1.92" y="-0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="8" x="1.92" y="0" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="9" x="1.92" y="0.5" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<smd name="10" x="1.92" y="1" dx="0.3" dy="0.79" layer="1" rot="R90"/>
+<circle x="-2.6" y="1.8" radius="0.2" width="0.125" layer="21"/>
+<text x="-2.1" y="-2.9" size="1" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="3.1" y="-1.2" size="0.5" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<smd name="PAD" x="0" y="0" dx="2.6" dy="2.3" layer="1"/>
+<polygon width="0.125" layer="51">
+<vertex x="-1.25" y="-1.1"/>
+<vertex x="-1.25" y="0.7"/>
+<vertex x="-0.9" y="1.1"/>
+<vertex x="1.25" y="1.1"/>
+<vertex x="1.25" y="-1.1"/>
+</polygon>
+<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.125" layer="51"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.125" layer="51"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.125" layer="51"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.125" layer="51"/>
+<rectangle x1="-2" y1="-0.125" x2="-1.6" y2="0.125" layer="51"/>
+<rectangle x1="-2" y1="0.375" x2="-1.6" y2="0.625" layer="51"/>
+<rectangle x1="-2" y1="0.875" x2="-1.6" y2="1.125" layer="51"/>
+<rectangle x1="-2" y1="-0.625" x2="-1.6" y2="-0.375" layer="51"/>
+<rectangle x1="-2" y1="-1.125" x2="-1.6" y2="-0.875" layer="51"/>
+<rectangle x1="1.6" y1="0.875" x2="2" y2="1.125" layer="51"/>
+<rectangle x1="1.6" y1="0.375" x2="2" y2="0.625" layer="51"/>
+<rectangle x1="1.6" y1="-0.125" x2="2" y2="0.125" layer="51"/>
+<rectangle x1="1.6" y1="-0.625" x2="2" y2="-0.375" layer="51"/>
+<rectangle x1="1.6" y1="-1.125" x2="2" y2="-0.875" layer="51"/>
+<wire x1="-2.6" y1="1.8" x2="2.6" y2="1.8" width="0.125" layer="39"/>
+<wire x1="2.6" y1="1.8" x2="2.6" y2="-1.8" width="0.125" layer="39"/>
+<wire x1="2.6" y1="-1.8" x2="-2.6" y2="-1.8" width="0.125" layer="39"/>
+<wire x1="-2.6" y1="-1.8" x2="-2.6" y2="1.8" width="0.125" layer="39"/>
+<wire x1="-2.2" y1="-1.5" x2="-2.2" y2="-1.7" width="0.125" layer="21"/>
+<wire x1="-2.2" y1="-1.7" x2="2.2" y2="-1.7" width="0.125" layer="21"/>
+<wire x1="2.2" y1="-1.7" x2="2.2" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="-2.2" y1="1.5" x2="-2.2" y2="1.7" width="0.125" layer="21"/>
+<wire x1="-2.2" y1="1.7" x2="2.2" y2="1.7" width="0.125" layer="21"/>
+<wire x1="2.2" y1="1.7" x2="2.2" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-1.4" y1="1.1" x2="-1.2" y2="1.1" width="0.0625" layer="51"/>
+<wire x1="-1.3" y1="1.2" x2="-1.3" y2="1" width="0.0625" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX3185*">
+<description>&lt;p&gt;Cold-Junction Compensated, 1-Wire Thermocouple-to-Digital Converters&lt;br/&gt;
+&lt;a href="http://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<pin name="GND" x="-5.08" y="2.54" length="middle" direction="sup"/>
+<pin name="VDD" x="-5.08" y="5.08" length="middle" direction="pwr"/>
+<pin name="DQ" x="-5.08" y="20.32" length="middle"/>
+<pin name="T-" x="-5.08" y="10.16" length="middle" direction="in"/>
+<pin name="T+" x="-5.08" y="15.24" length="middle" direction="in"/>
+<pin name="AD0" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="AD1" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="AD2" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="AD3" x="22.86" y="20.32" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="DNC" x="22.86" y="5.08" length="middle" direction="nc" rot="R180"/>
+<text x="0" y="24.384" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-3.556" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="PAD" x="22.86" y="2.54" length="middle" direction="nc" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX3185?*" prefix="U">
+<description>&lt;p&gt;Cold-Junction Compensated, 1-Wire Thermocouple-to-Digital Converters&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX3185*" x="-7.62" y="-12.7"/>
+</gates>
+<devices>
+<device name="0" package="10-TDFN-EP">
+<connects>
+<connect gate="G$1" pin="AD0" pad="6"/>
+<connect gate="G$1" pin="AD1" pad="7"/>
+<connect gate="G$1" pin="AD2" pad="8"/>
+<connect gate="G$1" pin="AD3" pad="9"/>
+<connect gate="G$1" pin="DNC" pad="10"/>
+<connect gate="G$1" pin="DQ" pad="5"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="T+" pad="3"/>
+<connect gate="G$1" pin="T-" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name="E">
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="DIGIKEY_OC" value="" constant="no"/>
+<attribute name="MFR" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="J">
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="DIGIKEY_OC" value="" constant="no"/>
+<attribute name="MFR" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="K">
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="DIGIKEY_OC" value="MAX31850KATB+-ND" constant="no"/>
+<attribute name="MFR" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="MAX31850KATB+" constant="no"/>
+<attribute name="VALUE" value="Type K" constant="no"/>
+</technology>
+<technology name="N">
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="DIGIKEY_OC" value="" constant="no"/>
+<attribute name="MFR" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="T">
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="DIGIKEY_OC" value="" constant="no"/>
+<attribute name="MFR" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1" package="10-TDFN-EP">
+<connects>
+<connect gate="G$1" pin="AD0" pad="6"/>
+<connect gate="G$1" pin="AD1" pad="7"/>
+<connect gate="G$1" pin="AD2" pad="8"/>
+<connect gate="G$1" pin="AD3" pad="9"/>
+<connect gate="G$1" pin="DNC" pad="10"/>
+<connect gate="G$1" pin="DQ" pad="5"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="T+" pad="3"/>
+<connect gate="G$1" pin="T-" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name="R"/>
+<technology name="S"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4931,7 +4963,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="C3" library="LoganSmith-Capacitors" deviceset="10UF-*-?" device="0805" technology="6.3V" value="10uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U2" library="LoganSmith-Digital_IC" deviceset="MAX3185?*" device="0" technology="K"/>
+<part name="U2" library="LoganSmith-Analog_IC" deviceset="MAX3185?*" device="0" technology="K" value="Type K"/>
 <part name="J1" library="LoganSmith-Connectors" deviceset="M08?" device="SQ1"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="LoganSmith-Aesthetics" deviceset="+3V3" device=""/>
