@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4942,6 +4942,7 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="CVERSION" value="v1.01"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -4984,7 +4985,8 @@ DIN A4, landscape with location and doc. field</description>
 <sheet>
 <plain>
 <text x="50.8" y="86.36" size="1.778" layer="91">16V max input</text>
-<text x="160.02" y="144.78" size="1.778" layer="91">Use solder jumpers to set device address for 1-wire</text>
+<text x="160.02" y="144.78" size="1.778" layer="97">Use solder jumpers to set device address for 1-wire</text>
+<text x="247.904" y="5.588" size="1.778" layer="97">&gt;CVERSION</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="55.88" y="129.54"/>
